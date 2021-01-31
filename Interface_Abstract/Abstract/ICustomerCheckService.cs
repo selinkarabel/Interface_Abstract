@@ -7,6 +7,6 @@ namespace Interface_Abstract.Abstract
 {
     public interface ICustomerCheckService
     {
-        public bool CheckIfRealPerson(Customer customer);
+        bool CheckIfRealPerson(Customer customer);
     }
 }

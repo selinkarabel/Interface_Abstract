@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Interface_Abstract.Concrete
 {
-    public class StarbucksCustomerManager : BaseCustomerManager // 1. usage --> , ICustomerCheckService
+    public class StarbucksCustomerManager : BaseCustomerManager // 1. usage add here --> , ICustomerCheckService
     {
         ICustomerCheckService _customerCheckService; // 2nd usage
 
